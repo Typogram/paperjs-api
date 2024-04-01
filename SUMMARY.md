@@ -3,6 +3,10 @@
 * [Paper.js API Reference](README.md)
 * [Global Scope](global-scope.md)
 
+## 3rd Party Plugins
+
+* [paperjs-round-corners](3rd-party-plugins/paperjs-round-corners.md)
+
 ## Basic Types
 
 * [Point](basic-types/point.md)
