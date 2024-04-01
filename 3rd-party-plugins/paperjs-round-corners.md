@@ -92,6 +92,18 @@ Rounds the corners of multiple segments using a Map.
 
 Returns a Map\<paper.Segment, boolean> indicating the success of rounding for each segment.
 
+Example usage:
+
+```javascript
+const segments = new Map([
+  [segment1, 10],
+  [segment2, 20],
+  [segment3, 15],
+]);
+
+const roundedSegments = YourClass.roundMap(segments, { method: "cubic" });
+```
+
 ### Rounding Methods
 
 #### <mark style="color:blue;">`simple-cubic`</mark>
